@@ -1,0 +1,10 @@
+终端输入git可以检测是否安装git
+创建文件夹 输入 git init 初始化文件夹
+命令 git add 文件名  #将文件添加到本地暂存区
+检查当前目录和暂存区的状态 git status
+git config --global user.name "用户名“ #配置  
+git config --global user.email "邮箱”  #配置
+git conmmit -m "注释“   #创建一次提交
+git remote add origin 仓库链接   #连接github仓库
+git push origin master  #将本地仓库推送到远端仓库
+git clone 仓库链接   #拷贝远端仓库到本地仓库
