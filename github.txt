@@ -4,7 +4,10 @@
 检查当前目录和暂存区的状态 git status
 git config --global user.name "用户名“ #配置  
 git config --global user.email "邮箱”  #配置
-git conmmit -m "注释“   #创建一次提交
+git commit -m "注释“   #创建一次提交
 git remote add origin 仓库链接   #连接github仓库
 git push origin master  #将本地仓库推送到远端仓库
 git clone 仓库链接   #拷贝远端仓库到本地仓库
+
+
+无发推送 git push -u origin +master
